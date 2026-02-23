@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "entangleq",
+  "builds": [
+    {
+      "src": "**/*.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/simulator", "dest": "/simulator.html" }
+  ]
+}
